@@ -28,6 +28,11 @@ const Examples = [
         id: 6,
         name : "Quantity Change",
         path : '/quantity'
+    },
+    {
+        id: 7,
+        name : "Modal",
+        path : '/modal'
     }
 
 ]
