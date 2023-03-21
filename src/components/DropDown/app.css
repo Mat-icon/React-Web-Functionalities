@@ -1,0 +1,29 @@
+.dropdown-body{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    justify-content: center;
+}
+.drop-menu{
+   position: relative;
+   bottom: 30px;
+}
+.drop-li{
+    width: 90px;
+    height: 20px;
+    background: #333;
+    text-align: center;
+    padding: 12px 20px;
+    color: white;
+    border-bottom: 2px solid silver;
+}
+.drop-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    padding: 12px 20px;
+    margin-left: 50px;
+    margin-top: 90px;
+}

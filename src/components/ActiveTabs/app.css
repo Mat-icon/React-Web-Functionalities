@@ -1,0 +1,41 @@
+.active{
+    color: red;
+}
+
+.active-flex{
+    display: inline-flex;
+}
+li{
+    margin-left: 60px;
+    cursor: pointer;
+    list-style: none;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.tab1--body{
+    width: 400px;
+    height: 300px;
+    background: skyblue;
+    text-align: center;
+    padding-top: 20px;
+}
+.tab2--body{
+    width: 400px;
+    height: 300px;
+    background: red;
+    text-align: center;
+    padding-top: 20px;
+}
+.tab3--body{
+    width: 400px;
+    height: 300px;
+    background: yellow;
+    padding-top: 20px;
+    text-align: center;
+}
+.active-content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
