@@ -8,6 +8,8 @@ import DropDown from './components/DropDown/DropDown';
 import NewTab from './components/NewTab/NewTab';
 import AddCart from './components/AddCart/AddCart';
 import Modal from './components/Modal/Modal';
+import Mode from './components/Mode/Mode';
+import Select from './components/Select/Select';
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
         <Route path='/newtab' element={<NewTab/>} />
         <Route path='/quantity' element={<AddCart/>} />
         <Route path='/modal' element={<Modal/>} />
+        <Route path='/mode' element={<Mode/>} />
+        <Route path='/select' element={<Select/>} />
       </Routes>
       </Router>
   );

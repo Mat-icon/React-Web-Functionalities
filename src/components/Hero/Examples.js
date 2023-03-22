@@ -33,6 +33,16 @@ const Examples = [
         id: 7,
         name : "Modal",
         path : '/modal'
+    },
+    {
+        id: 8,
+        name : "Light/Dark Mode",
+        path : '/mode'
+    },
+    {
+        id: 9,
+        name : "Select an Item",
+        path : '/select'
     }
 
 ]

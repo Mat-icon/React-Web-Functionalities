@@ -1,0 +1,58 @@
+.mode-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mode-flex h2{
+    font-family: sans-serif;
+}
+
+.darkmode{
+    background: black;
+    color: white;
+    width: 30%;
+    height: 40%;
+    border: 1px solid red;
+    padding: 12px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.darkmode button{
+    padding: 12px 20px;
+    border: 1px solid red;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+.lightmode{
+    background: white;
+    color: black;
+    width: 30%;
+    height: 40%;
+    border: 1px solid red;
+    padding: 12px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.lightmode button{
+    padding: 12px 20px;
+    border: 1px solid red;
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+.darkmode button:hover{
+    background: rgb(255, 255, 255);
+    color: black;
+}
+.lightmode button:hover{
+    background: rgba(7, 6, 6, 0.897);
+    color: white;
+}

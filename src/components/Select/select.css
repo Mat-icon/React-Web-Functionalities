@@ -1,0 +1,82 @@
+
+.select-body{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+}
+.select-item{
+    width: 60%;
+    height: 100%;
+    background: rgb(12, 11, 11);
+}
+
+.selected{
+    width: 40%;
+    height: 100%;
+    background: white;
+}
+
+.select-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 13px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.select-card{
+    width: 180px;
+    height: 250px;
+    background: transparent;
+    border: 1px solid rgba(255, 0, 0, 0.637);
+    padding: 5px 10px;
+    color: white;
+    font-family: sans-serif;
+}
+.select-card p{
+    font-size: 12px;
+}
+.select-card:hover{
+  background: white;
+  color: black;
+}
+
+.select-text{
+    font-family: sans-serif;
+}
+
+
+.select-image{
+    width: 100%;
+    height: 50%;
+    background: rgba(24, 24, 37, 0.74);
+}
+.selected-img{
+    width: 100%;
+    height: 50%;
+    background: blanchedalmond;
+}
+.select-card h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+.select-text p{
+    font-size: 12px;
+    color: white;
+}
+.selected-text{
+    padding: 12px 20px;
+    font-family: sans-serif;
+    font-family: 14px;
+}
+.selected-text h1{
+    font-weight: 400;
+}
+
+.selected-img img{
+    width: 100%;
+    height: 100%;
+}
