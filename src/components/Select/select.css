@@ -14,40 +14,40 @@
 .selected{
     width: 40%;
     height: 100%;
-    background: white;
+    background: #333;
 }
-
 .select-grid{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 13px;
+    gap: 17px;
     position: absolute;
     top: 50%;
     left: 30%;
     transform: translate(-50%,-50%);
 }
-
 .select-card{
     width: 180px;
     height: 250px;
-    background: transparent;
-    border: 1px solid rgba(255, 0, 0, 0.637);
-    padding: 5px 10px;
+    background: #1a1919;
+    padding: 6px 12px;
     color: white;
     font-family: sans-serif;
+    border-radius: 12px;
 }
 .select-card p{
     font-size: 12px;
+    color: #ffffff93;
 }
 .select-card:hover{
-  background: white;
-  color: black;
+  transition: 0.3s ease-in;
+  border: 1px solid yellow;
+  cursor: pointer;
+  transform: scale(1.07);
 }
 
 .select-text{
     font-family: sans-serif;
 }
-
 
 .select-image{
     width: 100%;
@@ -71,12 +71,22 @@
     padding: 12px 20px;
     font-family: sans-serif;
     font-family: 14px;
+    color: yellow;
 }
 .selected-text h1{
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .selected-img img{
     width: 100%;
     height: 100%;
+}
+
+.select-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.selected-des{
+    font-size: 13px;
 }

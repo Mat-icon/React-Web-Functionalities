@@ -12,7 +12,7 @@
     color: white;
     width: 30%;
     height: 40%;
-    border: 1px solid red;
+    border: 0.5px solid red;
     padding: 12px 20px;
     position: absolute;
     top: 50%;
@@ -22,7 +22,7 @@
 
 .darkmode button{
     padding: 12px 20px;
-    border: 1px solid red;
+    border: 0.5px solid red;
     color: white;
     background: black;
     cursor: pointer;
@@ -33,7 +33,7 @@
     color: black;
     width: 30%;
     height: 40%;
-    border: 1px solid red;
+    border: 0.5px solid red;
     padding: 12px 20px;
     position: absolute;
     top: 50%;
@@ -43,7 +43,7 @@
 
 .lightmode button{
     padding: 12px 20px;
-    border: 1px solid red;
+    border: 0.5px solid red;
     color: black;
     background: white;
     cursor: pointer;

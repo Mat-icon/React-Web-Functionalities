@@ -32,7 +32,7 @@ function Select() {
         {arrays && (
           <div className="selected">
             <div className="selected-img">
-              <img src={''} alt=''/>
+              <img src={arrays.image} alt=''/>
             </div>
             <div className="selected-text">
               <h1>{arrays.name}</h1>

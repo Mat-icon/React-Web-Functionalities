@@ -24,6 +24,7 @@
     background: black;
     color: white;
     border-radius: 0%;
+    margin-left: 70px;
 }
 .new-btn:hover{
     color: black;
